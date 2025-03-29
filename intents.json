@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "GATE",
+      "patterns": [
+        "Give me the link for registering for GATE exam?",
+        "provide me the link for GATE exam registration",
+        "GATE exam registeration link please"
+      ],
+      "responses": [
+        "https://goaps.iisc.ac.in/login"
+      ]
+    },
+    {
+      "tag": "CAT",
+      "patterns": [
+        "Give me the link for registering for CAT exam?",
+        "provide me the link for CAT exam registration",
+        "CAT exam registration link please",
+        "CAT exam"
+      ],
+      "responses": [
+        "https://cdn.digialm.com/EForms/configuredHtml/756/78268/login.html"
+      ]
+    },
+    {
+      "tag": "JEE",
+      "patterns": [
+        "Give me the link for registering for JEE exam?",
+        "provide me the link for JEE exam registration",
+        "JEE exam registeration link please"
+      ],
+      "responses": [
+        "https://jeemainsession2.ntaonline.in/"
+      ]
+    },
+    {
+      "tag": "UPSC",
+      "patterns": [
+        "Give me the link for registering for UPSC exam?",
+        "provide me the link for UPSC exam registration",
+        "UPSC exam registeration link please"
+      ],
+      "responses": [
+        "https://upsc.gov.in/server-busy.php"
+      ]
+    },
+    {
+      "tag": "GRE",
+      "patterns": [
+        "Give me the link for registering for GRE exam?",
+        "provide me the link for GRE exam registration",
+        "GRE exam registeration link please"
+      ],
+      "responses": [
+        "https://ereg.ets.org/ereg/public/jump?_p=GRI"
+      ]
+    },
+    {
+      "tag": "GMAT",
+      "patterns": [
+        "Give me the link for registering for GMAT exam?",
+        "provide me the link for GMAT exam registration",
+        "GMAT exam registeration link please"
+      ],
+      "responses": [
+        "https://www.mba.com/service/login?checkGISFirst=false&returnUrl=%2fservice%2ftesting%2fgmat-exam-profile%3fsourcePageUrl%3d%2fexams%2fgmat-focus-edition%2fregister#_=_"
+      ]
+    },
+    {
+      "tag": "ISRO",
+      "patterns": [
+        "Give me the link for registering for ISRO exam?",
+        "provide me the link for ISRO exam registration",
+        "ISRO exam registeration link please"
+      ],
+      "responses": [
+        "https://www.isro.gov.in/ISROAPP/rRBMF"
+      ]
+    },
+    {
+      "tag": "PGCET",
+      "patterns": [
+        "Give me the link for registering for PGCET exam?",
+        "provide me the link for PGCET exam registration",
+        "PGCET exam registeration link please"
+      ],
+      "responses": [
+        "https://auth.maharashtracet.org/realms/mh-cet/protocol/openid-connect/auth?client_id=central-launchpad&redirect_uri=https%3A%2F%2Fportal.maharashtracet.org%2F&state=295be126-1792-4263-8fc3-65fc715644ee&response_mode=fragment&response_type=code&scope=openid&nonce=9cae16ac-c8db-423c-839c-afc35e891f59"
+      ]
+    },
+    {
+      "tag": "NEET-UG",
+      "patterns": [
+        "Give me the link for registering for NEET-UG exam?",
+        "provide me the link for NEET-UG exam registration",
+        "NEET-UG exam registeration link please"
+      ],
+      "responses": [
+        "https://exams.nta.ac.in/NEET/"
+      ]
+    },
+    {
+      "tag": "NEET-PG",
+      "patterns": [
+        "Give me the link for registering for NEET-PG exam?",
+        "provide me the link for NEET-PG exam registration",
+        "NEET-PG exam registeration link please"
+      ],
+      "responses": [
+        "https://www.shiksha.com/medicine-health-sciences/neet-pg-exam-application-form"
+      ]
+    }
+  ]
+}
